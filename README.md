@@ -47,7 +47,7 @@ mov     rax, [rcx+0B0h] ; Bzzt!
 Then you get a null pointer dereference.
 
 # Don't worry, it's a feature
-I attempted to report this vulnerability to Microsoft on July 6, 2017. I asked for contact information of someone who doesn't speak corporate BS to provide them with technical details. Microsoft was not interested and instead unironically redirected me to the [Microsoft Support Services](http://support.microsoft.com/common/international.aspx) site 'if I had any issues with Windows'.
+I attempted to report this vulnerability to Microsoft on July 6, 2017. (Update: the bug had [already been found](https://bugs.chromium.org/p/project-zero/issues/detail?id=852) by Google's Project Zero a year prior to this.) I asked for contact information of someone who doesn't speak corporate BS to provide them with technical details. Microsoft was not interested and instead unironically redirected me to the [Microsoft Support Services](http://support.microsoft.com/common/international.aspx) site 'if I had any issues with Windows'.
 
 The bug has nevertheless been fixed in RS3, no thanks to me. It's not certain whether it was fixed by accident or on purpose, because the most recent RS2 security update still has not fixed it and the vulnerability still exists on any version of Windows 10 prior to RS3 (with the exception of RTM).
 
